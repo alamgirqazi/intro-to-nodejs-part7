@@ -41,7 +41,7 @@ app.get('/',  function (req, res) {
     message: 'Express backend server'});
 });
 
-app.set('port', (3000));
+app.set('port', (process.env.PORT));
 
 app.use(accessControls);
 app.use(cors());
