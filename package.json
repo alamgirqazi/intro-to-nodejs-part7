@@ -17,10 +17,10 @@
     "express": "~4.16.0",
     "jsonwebtoken": "^8.2.2",
     "mongoose": "^5.7.5",
+    "dotenv": "^6.0.0",
     "mongoose-paginate": "^5.0.3"
   },
   "devDependencies": {
-    "dotenv": "^6.0.0",
     "eslint-config-google": "^0.9.1"
   }
 }
